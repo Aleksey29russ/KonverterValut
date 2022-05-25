@@ -13,9 +13,8 @@ int main()
     double rub, dollar, euro, rub_dollar, rub_euro,
 		euro_rub, dollar_rub, euro_dollar, dollar_euro;
 	int menu,cicle=0;
-
+	for (int i = cicle; i >= 0 && i <= 6; i++) {
 	cout << "\t\tВыберите действие:\n";
-	for(int i = cicle;i >= 0 && i <= 6;i++){
 		cout << "\tЧтобы перевести рубли в доллары введите  1 \n"
 		<< "\tЧтобы перевести рубли в евро введите     2\n"
 		<< "\tЧтобы перевести евро в рубли введите     3\n"
@@ -50,7 +49,7 @@ int main()
 			cout << dollar << " Долларов = " << dollar_rub << " Рублей \n\n";
 		}
 		else if (menu == 5) {
-			cout << "Введите сумму в долларах\n\n";
+			cout << "Введите сумму в евро\n\n";
 			cin >> euro;
 			euro_dollar = euro * 65 / 61;
 			cout << euro << " Евро = " << euro_dollar << " Долларов \n\n";
