@@ -61,7 +61,7 @@ int main()
 			cout << dollar << " Долларов = " << dollar_euro << " Евро \n\n";
 		}
 		else if (menu == 0) break;
-		else cout << "Error\n";
+		else cout << "Ошибка!Введите число из списка!\n\n";
 		}
 	return 0;
 }
