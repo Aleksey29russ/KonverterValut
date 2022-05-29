@@ -65,6 +65,7 @@ int main()
 		}
 		else if (menu == 0) break;
 		else cout << "Ошибка!Введите число из списка!\n\n";
+		system("cls");
 		}
 	return 0;
 }
